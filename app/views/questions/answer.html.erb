@@ -1,0 +1,18 @@
+<div class="main p-5 w-50">
+  <h1>Stupid Coaching</h1>
+  <div class="question bg-secondary pt-3">
+    <div class="question ml-3 mb-3">
+      <h2><%= @question %></h2>
+      <p>-- You</p>
+    </div>
+  </div>
+  <div class="answer bg-warning pt-3">
+    <div class="reply ml-3 mb-3">
+      <h2><%= @reply %></h2>
+      <p>-- Coach</p>
+    </div>
+  </div>
+  <div>
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
